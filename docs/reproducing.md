@@ -63,10 +63,10 @@ except the last one, which is kept to calibrate the intervals, and writes:
 
 - `manifest.json`: inputs, features per lead time, CQR adjustments, warning threshold,
   training years and library versions;
-- `h<h>_lgbm.txt`, `h<h>_q05.txt` ... `h<h>_q95.txt`: LightGBM models (text format);
+- `h<h>_lgbm.txt.gz`, `h<h>_q05.txt.gz` ... `h<h>_q95.txt.gz`: LightGBM models (gzipped text);
 - `h<h>_ridge.joblib`: Ridge pipelines (scikit-learn; load them with the same version);
 - `source_importance.csv`, `feature_importance.csv`.
 
 `llobregat.operational.OperationalModel.load(path).predict(features)` turns a feature table
 built with `llobregat.features` into forecasts, intervals and warnings. The live app
-([llobregat-operatiu](https://github.com/joangordo/llobregat-operatiu)) uses exactly this.
+([llobregat-flood-forecast-live](https://github.com/joangordo/llobregat-flood-forecast-live)) uses exactly this.

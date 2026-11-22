@@ -12,8 +12,9 @@ intervals and a two-level warning.
 > information, see the [Agència Catalana de l'Aigua](https://aca.gencat.cat) and
 > [Protecció Civil de Catalunya](https://interior.gencat.cat/ca/arees_dactuacio/proteccio_civil/).
 
-**Live forecast:** [llobregat-operatiu](https://github.com/joangordo/llobregat-operatiu)
-(GitHub Actions + GitHub Pages, updated every 30 minutes).
+**Live forecast:** [joangordo.github.io/llobregat-flood-forecast-live](https://joangordo.github.io/llobregat-flood-forecast-live/)
+(GitHub Actions + GitHub Pages, updated every 30 minutes; code:
+[llobregat-flood-forecast-live](https://github.com/joangordo/llobregat-flood-forecast-live)).
 
 ![Skill by lead time](docs/figures/skill_by_horizon.png)
 
